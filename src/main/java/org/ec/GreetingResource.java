@@ -1,4 +1,4 @@
-package org.acme;
+package org.ec;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
@@ -15,7 +15,7 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello from RESTEasy Reactive";
+        return "Hello from Quarkus RESTEasy Reactive";
     }
 
     @GET
